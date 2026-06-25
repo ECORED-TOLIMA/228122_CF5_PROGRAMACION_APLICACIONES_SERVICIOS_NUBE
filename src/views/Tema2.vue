@@ -57,14 +57,13 @@
           .anexo__texto
             p Anexo. Representación de una estructura básica de una base de datos relacional
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Principios del modelo relacional
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Principios del modelo relacional
     p.mb-4(data-aos="fade-down") El modelo relacional se fundamenta en principios matemáticos derivados de la teoría de conjuntos y la lógica formal, lo que permite definir estructuras precisas y operaciones consistentes sobre los datos. Este enfoque garantiza que la información pueda ser manipulada de manera estructurada, permitiendo realizar consultas, actualizaciones y eliminaciones sin comprometer la integridad del sistema.
     .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-7.col-12.order-lg-2.order-2
@@ -80,14 +79,13 @@
         figure
           img(src='@/assets/curso/tema2/img05.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Concepto de relación entre datos
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Concepto de relación entre datos
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
@@ -108,14 +106,13 @@
         .cajon.cajon.C10.p-4
           p.mb-0(data-aos="fade-down") Desde esta perspectiva, una base de datos relacional no se concibe únicamente como un conjunto de tablas, sino como un sistema estructurado de relaciones matemáticas que permiten representar entidades del mundo real y sus interacciones. Esta formalización facilita la manipulación de los datos mediante lenguajes como SQL, garantizando coherencia, integridad y flexibilidad en su gestión.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Concepto de relación en el modelo relacional
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Concepto de relación en el modelo relacional
     p.mb-4(data-aos="fade-down") En la teoría relacional, una relación corresponde a una tabla que contiene un conjunto de tuplas (filas), donde cada tupla representa una instancia única de una entidad. Cada columna de la tabla corresponde a un atributo, el cual define una propiedad específica de dicha entidad.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
@@ -168,14 +165,13 @@
           .anexo__texto
             p Anexo. Representación conceptual de una relación
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Fundamentos de la teoría relacional
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Fundamentos de la teoría relacional
     p.mb-4(data-aos="fade-down") La teoría relacional establece los principios que permiten organizar y garantizar la calidad de los datos dentro de una base de datos. Entre estos principios se encuentran los conceptos de dominio y restricciones, que definen los valores válidos para cada atributo y evitan el ingreso de información incorrecta. Asimismo, las claves cumplen un papel central al permitir la identificación única de los registros y la correcta relación entre tablas, asegurando la integridad de entidad y la integridad referencial.
     .bloque-texto-g.bloque-texto-g--inverso.cajon.C09.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -184,14 +180,13 @@
       .bloque-texto-g__texto.p-4
         p.mb-0(data-aos="fade-down") Estos mecanismos trabajan de manera conjunta para preservar la consistencia de la información, reducir errores y evitar redundancias. Además, la teoría relacional proporciona las bases conceptuales para la normalización de datos, proceso orientado a estructurar la información de forma lógica y eficiente, facilitando su mantenimiento y actualización en sistemas complejos.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Manipulación y aplicación de los datos relacionales
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Manipulación y aplicación de los datos relacionales
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -272,14 +267,13 @@
           figure
             img(src='@/assets/curso/tema2/img16.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Relación entre redundancia, inconsistencia e integridad
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Relación entre redundancia, inconsistencia e integridad
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -306,13 +300,12 @@
           p.mb-0(data-aos="fade-down") En el contexto del diseño y modelado de bases de datos, el DBMS desempeña un papel fundamental, ya que proporciona las herramientas necesarias para implementar las estructuras diseñadas, ejecutar consultas, asegurar la integridad de los datos y controlar el acceso a la información.
     .row.justify-content-center.mb-3
       .col.col-12.col-lg-10
-        .row.align-items-center.mb-4(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Funcionamiento de un DBMS
+        .d-flex.align-items-center.mb-4(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Funcionamiento de un DBMS
         p.mb-0(data-aos="fade-down") Un sistema gestor de bases de datos cumple diversas funciones que permiten el manejo integral de la información:
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
@@ -500,14 +493,13 @@
         figure.mb-0
           img(src='@/assets/curso/tema2/img37.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Modelo conceptual
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Modelo conceptual
     p.mb-4(data-aos="fade-down") Representa el nivel más abstracto del diseño de bases de datos. En esta etapa, se identifican las entidades, sus atributos y las relaciones entre ellas, sin considerar aspectos técnicos de implementación. Su propósito es describir la realidad del problema de manera clara y comprensible para todos los actores involucrados.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-1.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
@@ -622,14 +614,13 @@
         figure.movil
           img(src='@/assets/curso/tema2/img45.svg', alt='Figura 9 que muestra un ejemplo de modelo lógico de base de datos, donde se representan las tablas Cliente, Pedido y Artículo con sus respectivos atributos, claves primarias y claves foráneas, así como las relaciones entre ellas. El diagrama evidencia una relación uno a muchos entre Cliente y Pedido, y una relación muchos a muchos entre Pedido y Artículo, resuelta mediante una tabla intermedia.')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Modelo físico
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Modelo físico
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure

@@ -50,14 +50,13 @@
             i.fas.fa-cloud-arrow-down
             p.mb-0 Establecer relaciones entre tablas.
         .row.justify-content-center.mb-4
-          .col.col-12
-            .row.align-items-center(data-aos="flip-down")
-              .col-auto.pe-0(style="z-index:2")
-                figure
-                  img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-              .col-lg-auto.col-9.titulo01(style="z-index:1")
-                .p-2
-                  h3.mb-0.ms-lg-0.ms-md-3.ms-1 Comandos principales del DDL
+          .col-12
+            .d-flex.align-items-center(data-aos="flip-down")
+              .flex-shrink-0(style="z-index: 2;")
+                figure.mb-0
+                  img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+              .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+                h3.mb-0 Comandos principales del DDL
         .row.justify-content-center.mb-0
           .col.col-lg-2.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
             figure
@@ -105,14 +104,13 @@
               figure
                 img(src='@/assets/curso/tema4/img08.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Restricciones con DDL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Restricciones con DDL
     p.mb-4(data-aos="fade-down") El DDL permite establecer restricciones que garantizan la integridad de los datos dentro de la base de datos. Estas restricciones controlan qué tipo de datos pueden almacenarse y cómo se relacionan entre sí. Los siguientes son los tipos existentes:
     .row.BG03.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
@@ -213,14 +211,13 @@
             i.fas.fa-cloud-arrow-down
             p.mb-0 Eliminar registros cuando sea necesario.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Comandos principales del DML
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Comandos principales del DML
     p.mb-4(data-aos="fade-down") A continuación, se presentan los principales comandos del DML, utilizados para ejecutar las operaciones básicas de gestión de datos dentro de una base de datos, junto con ejemplos que ilustran su uso:
     .row.BG03.justify-content-center.align-items-center.px-3.mb-0(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
@@ -272,14 +269,13 @@
             i.fas.fa-cloud-arrow-down
             p.mb-0 Garantizar la confidencialidad de la información.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Comandos principales del DCL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Comandos principales del DCL
     p.mb-4(data-aos="fade-down") A continuación, se presentan los comandos de este tipo de lenguaje y un ejemplo puntual, los cuales permiten gestionar los permisos y niveles de acceso de los usuarios dentro de la base de datos:
     .row.justify-content-center.mb-4
       .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
@@ -341,14 +337,13 @@
                 i.fas.fa-cloud-arrow-down
                 p.mb-0 Restringir acceso a ciertos datos.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Comandos principales del VDL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Comandos principales del VDL
     p.mb-4(data-aos="fade-down") A continuación, se presentan los comandos del lenguaje de definición de vistas y un ejemplo representativo, los cuales permiten crear, modificar y eliminar vistas para facilitar el acceso y la organización de la información almacenada en la base de datos:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12

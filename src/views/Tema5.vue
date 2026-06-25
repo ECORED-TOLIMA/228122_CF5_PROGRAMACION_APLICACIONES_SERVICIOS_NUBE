@@ -39,14 +39,13 @@
       h2 5.1 Conceptos, principios y terminología NoSQL
     p.mb-4(data-aos="fade-down") Las bases de datos NoSQL surgen como una alternativa al modelo relacional tradicional, orientadas a gestionar grandes volúmenes de datos en entornos donde la flexibilidad, el rendimiento y la escalabilidad son fundamentales. Este enfoque permite almacenar información no estructurada o semiestructurada, adaptándose a las necesidades de aplicaciones modernas y sistemas distribuidos.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Conceptos de NoSQL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Conceptos de NoSQL
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -67,14 +66,13 @@
             i.fas.fa-cloud-arrow-down
             p.mb-0 Escalabilidad horizontal.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Principios de NoSQL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Principios de NoSQL
     p.mb-4(data-aos="fade-down") El diseño de las bases de datos NoSQL se fundamenta en principios que priorizan el rendimiento y la disponibilidad del sistema frente a la rigidez estructural. Estos principios permiten un funcionamiento eficiente en entornos de alta demanda y sistemas distribuidos, incluyendo:
     .row.justify-content-center.mb-4
       .col.col-lg-8.col-12.mb-md-0.order-lg-1.order-2
@@ -97,13 +95,12 @@
     p.mb-4(data-aos="fade-down") Un principio teórico clave en los sistemas NoSQL es el teorema CAP, el cual establece que un sistema distribuido no puede garantizar simultáneamente la consistencia, la disponibilidad y la tolerancia a particiones.
     .row.justify-content-center.mb-4
       .col.col-12.col-lg-10
-        .row.align-items-center.mb-4(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Terminología NoSQL
+        .d-flex.align-items-center.mb-4(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Terminología NoSQL
         p.mb-0(data-aos="fade-down") Las bases de datos NoSQL utilizan una terminología específica asociada a su arquitectura distribuida y a su forma de gestionar los datos. Algunos de los términos más relevantes son:
     .row.BG03.justify-content-center.align-items-center.px-3.mb-0(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
@@ -212,10 +209,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12.mb-4
         .tarjeta.tarjeta--C11.px-4.py-3.d-inline-block
-          ul.lista-ul.mb-0
-            li.mb-0
-              i.lista-ul__vineta
-              h3.mb-0 Importancia de la clasificación NoSQL
+          h3.mb-0 Importancia de la clasificación NoSQL
       .row.justify-content-center.align-items-center.mb-0
         .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
           figure
@@ -260,13 +254,12 @@
     p.mb-4(data-aos="fade-down") El diseño de bases de datos NoSQL se fundamenta en un enfoque orientado al uso y al rendimiento, donde la estructura de los datos se define a partir de la forma en que serán consultados. A diferencia del modelo relacional, en NoSQL no se prioriza la normalización, sino la optimización de las consultas y el acceso eficiente a la información mediante estructuras flexibles adaptadas a las necesidades de la aplicación.
     .row.justify-content-center.mb-4
       .col.col-12.col-lg-10
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Patrones de acceso
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Patrones de acceso
     .row.justify-content-center.mb-4
       .col.col-lg-3.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
@@ -289,14 +282,13 @@
         .cajon.cajon.C02.p-4.mb-0
           p.mb-0(data-aos="fade-down") Un diseño adecuado basado en patrones de acceso permite mejorar el rendimiento del sistema y reducir la complejidad de las consultas.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Uso de claves en NoSQL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Uso de claves en NoSQL
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -321,14 +313,13 @@
                   p.mb-0 Claves optimizadas de acuerdo con los patrones de acceso definidos.
         p.mb-0(data-aos="fade-down") El uso adecuado de las claves permite minimizar el tiempo de respuesta y optimizar el rendimiento del sistema.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Análisis de relaciones en NoSQL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Análisis de relaciones en NoSQL
     p.mb-4(data-aos="fade-down") En las bases de datos NoSQL, las relaciones entre los datos no se gestionan mediante claves foráneas como en el modelo relacional. En su lugar, se utilizan enfoques alternativos que permiten mayor flexibilidad en la representación de la información. Los métodos más comunes son:
     .row.justify-content-center.mb-4
       .col.col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")

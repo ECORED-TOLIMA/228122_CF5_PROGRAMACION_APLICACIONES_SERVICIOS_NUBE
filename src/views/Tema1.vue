@@ -25,15 +25,14 @@
         figure
           img(src='@/assets/curso/tema1/img03.svg', alt='Imagen decorativa')
       .col-lg-8.col-12
-        .row.justify-content-center.mb-0
-          .col.col-12
-            .row.align-items-center.mb-4(data-aos="flip-down")
-              .col-auto.pe-0(style="z-index:2")
-                figure
-                  img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-              .col-lg-auto.col-9.titulo01(style="z-index:1")
-                .p-2
-                  h3.mb-0.ms-lg-0.ms-md-3.ms-1 Importancia de la lógica y algoritmia en bases de datos
+        .row.justify-content-center.mb-4
+          .col-12
+            .d-flex.align-items-center(data-aos="flip-down")
+              .flex-shrink-0(style="z-index: 2;")
+                figure.mb-0
+                  img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+              .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+                h3.mb-0 Importancia de la lógica y algoritmia en bases de datos
         p.mb-3(data-aos="fade-down") Su importancia radica en:
         .row.justify-content-center
           .col-xl-6.col-lg-6.col-md-10.col-12.mb-xl-0
@@ -98,14 +97,13 @@
           .anexo__texto
             p Anexo. Relación entre lógica, algoritmia y bases de datos
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center.mb-0(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Componentes fundamentales de la lógica y algoritmia
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Componentes fundamentales de la lógica y algoritmia
     p.mb-4(data-aos="fade-down") Para comprender la lógica y la algoritmia, es necesario identificar los elementos que las conforman y su función dentro del proceso de resolución de problemas. A continuación, se presentan los componentes fundamentales y su descripción general:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
@@ -178,14 +176,13 @@
     .row.justify-content-center.align-items-strench.mb-4
       .col-lg-7.col-12.order-lg-2.order-2
         .row.justify-content-center.mb-4
-          .col.col-12
-            .row.align-items-center(data-aos="flip-down")
-              .col-auto.pe-0(style="z-index:2")
-                figure
-                  img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-              .col-lg-auto.col-9.titulo01(style="z-index:1")
-                .p-2
-                  h3.mb-0.ms-lg-0.ms-md-3.ms-1 Características de una solución basada en lógica y algoritmia
+          .col-12
+            .d-flex.align-items-center(data-aos="flip-down")
+              .flex-shrink-0(style="z-index: 2;")
+                figure.mb-0
+                  img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+              .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+                h3.mb-0 Características de una solución basada en lógica y algoritmia
         p.mb-4(data-aos="fade-down") A continuación, se presentan las principales características que orientan el desarrollo de soluciones lógicas y eficientes:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
@@ -241,14 +238,13 @@
     .row.justify-content-center.align-items-strench.mb-4
       .col-lg-6.col-12.order-lg-2.order-2
         .row.justify-content-center.mb-4
-          .col.col-12
-            .row.align-items-center(data-aos="flip-down")
-              .col-auto.pe-0(style="z-index:2")
-                figure
-                  img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-              .col-lg-auto.col-9.titulo01(style="z-index:1")
-                .p-2
-                  h3.mb-0.ms-lg-0.ms-md-3.ms-1 Importancia de la representación de la información
+          .col-12
+            .d-flex.align-items-center(data-aos="flip-down")
+              .flex-shrink-0(style="z-index: 2;")
+                figure.mb-0
+                  img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+              .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+                h3.mb-0 Importancia de la representación de la información
         p.mb-4(data-aos="fade-down") La adecuada representación de la información permite:
         ul.lista-ul--color.mt-4.mb-4(data-aos="fade-down")
           li
@@ -292,13 +288,12 @@
             p Anexo. Proceso de representación de la información
     .row.justify-content-center.mb-3
       .col.col-12.col-lg-10
-        .row.align-items-center.mb-4(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Tipos de formatos de representación de la información
+        .d-flex.align-items-center.mb-4(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Tipos de formatos de representación de la información
         p.mb-0(data-aos="fade-down") La información puede representarse en diferentes formatos dependiendo del contexto, el propósito y el tipo de sistema en el que se utilice:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
@@ -469,14 +464,13 @@
         figure.movil
           img(src='@/assets/curso/tema1/img25.svg', alt='Figura 3 que representa la clasificación general de las bases de datos, agrupando los principales modelos según su estructura y forma de almacenamiento.')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Bases de datos relacionales (<em>relational</em>)
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Bases de datos relacionales (<em>relational</em>)
     p.mb-4(data-aos="fade-down") Las bases de datos relacionales constituyen el modelo tradicional más utilizado en el diseño de sistemas de información. Estas se fundamentan en el modelo relacional, en el cual la información se organiza en tablas compuestas por filas y columnas, estableciendo relaciones entre los datos mediante claves primarias y foráneas.
     .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-7.col-12.order-lg-2.order-2
@@ -492,14 +486,13 @@
         figure
           img(src='@/assets/curso/tema1/img26.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Bases de datos NoSQL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Bases de datos NoSQL
     .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
@@ -540,14 +533,13 @@
                 td(data-aos="fade-down") Representan relaciones complejas.
                 td(data-aos="fade-down") Neo4j.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Bases de datos In-Memory
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Bases de datos In-Memory
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -618,14 +610,13 @@
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") CouchStore o Magma (disponible tanto en Couchbase Capella como en Couchbase Server).
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Despliegues típicos de SQL Server, Oracle, Postgres, MySQL, etc. (Estos pueden utilizar memoria para almacenar en búfer y caché los planes de consulta y algunos pueden tener complementos para aumentar el almacenamiento en caché). Comparar con NoSQL.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Bases de datos NewSQL
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Bases de datos NewSQL
     p.mb-4(data-aos="fade-down") Estas bases de datos representan una evolución del modelo relacional, combinando las ventajas de las bases de datos tradicionales (consistencia e integridad) con las capacidades de escalabilidad y alto rendimiento de los sistemas NoSQL.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
@@ -693,14 +684,13 @@
         .cajon.cajon.C08.color-primario.p-4.mb-4
           p.mb-0(data-aos="fade-down") Cada tipo de base de datos — relacional, NoSQL, in memory y NewSQL — presenta características particulares que influyen directamente en su uso, comportamiento y desempeño. Por ello, comprender sus diferencias no solo facilita su implementación, sino que también permite optimizar recursos y garantizar soluciones tecnológicas adecuadas.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Usos
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Usos
     p.mb-4(data-aos="fade-down") Los usos de los distintos tipos de bases de datos son:
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C15" data-aos="zoom-in")
       .row.justify-content-center(titulo="Relacionales (<em>relational</em>)")
@@ -728,14 +718,13 @@
           figure
             img(src='@/assets/curso/tema1/img36.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Diferencias
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Diferencias
     .row.justify-content-center.mb-0
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -751,14 +740,13 @@
         .cajon.cajon.C08.color-primario.px-4.py-4.mb-4
           p.mb-0(data-aos="fade-down") Las bases de datos In-Memory se diferencian por su ubicación de almacenamiento, ya que operan en memoria principal en lugar de disco, lo que les permite alcanzar altos niveles de rendimiento. Por su parte, las bases de datos NewSQL integran características de los sistemas relacionales tradicionales con arquitecturas distribuidas, logrando un equilibrio entre consistencia y escalabilidad.
     .row.justify-content-center.mb-4
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Ventajas
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Ventajas
     p.mb-4(data-aos="fade-down") Cada tipo de base de datos ofrece ventajas específicas que responden a distintos requerimientos tecnológicos:
     .row.BG03.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
@@ -780,13 +768,12 @@
           img(src='@/assets/curso/tema1/img39.png', alt='Imagen decorativa')
     .row.justify-content-center.mb-4
       .col.col-12.col-lg-10
-        .row.align-items-center.mb-4(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Criterios para seleccionar un tipo de base de datos
+        .d-flex.align-items-center.mb-4(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Criterios para seleccionar un tipo de base de datos
         p.mb-0(data-aos="fade-down") La elección del tipo de base de datos depende de múltiples factores, entre los que se destacan el volumen de datos, la velocidad de procesamiento requerida, el nivel de consistencia necesario, la estructura de la información y la capacidad de escalabilidad del sistema. En sistemas tradicionales, donde la precisión y la integridad son prioritarias, las bases de datos relacionales suelen ser la mejor opción. En entornos donde se manejan grandes volúmenes de datos y se requiere flexibilidad, las bases de datos NoSQL resultan más adecuadas. Para aplicaciones en tiempo real, las bases de datos In-Memory ofrecen un rendimiento superior, mientras que las bases de datos NewSQL son ideales para sistemas modernos que requieren equilibrio entre rendimiento y consistencia.
 </template>
 

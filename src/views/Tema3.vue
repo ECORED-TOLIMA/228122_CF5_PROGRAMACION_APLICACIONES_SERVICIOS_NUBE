@@ -54,14 +54,13 @@
         .cajon.cajon.C03.px-4.py-3
           p.mb-0(data-aos="fade-down") La normalización es clave para garantizar la calidad de la información y evitar anomalías en las operaciones de inserción, actualización y eliminación.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Importancia de la normalización
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Importancia de la normalización
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -111,14 +110,13 @@
             h4.text-center Anomalía de eliminación
             p.mb-0(data-aos="fade-down") Sucede cuando al eliminar un registro se pierde información relevante que está asociada a ese dato y que aún podría ser necesaria. Esto provoca pérdida de datos importantes y reduce la integridad de la base de datos.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Formas normales
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Formas normales
     p.mb-4(data-aos="fade-down") La normalización se desarrolla a través de diferentes niveles llamados formas normales. Cada forma normal establece condiciones que deben cumplirse para mejorar la estructura de la base de datos:
     .row.justify-content-center.mb-0(data-aos="flip-down")
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
@@ -172,14 +170,13 @@
       .bloque-texto-g__texto.p-4
         p.mb-0(data-aos="fade-down") En el contexto del diseño de bases de datos relacionales, el modelo relacional permite representar entidades del mundo real mediante relaciones (tablas), facilitando la manipulación de la información a través de operaciones bien definidas. Este enfoque ha sido ampliamente adoptado debido a su simplicidad conceptual, su robustez y su capacidad para mantener la integridad de los datos.
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Estructura del modelo relacional
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Estructura del modelo relacional
     p.mb-4(data-aos="fade-down") El modelo relacional se basa en la organización de los datos en tablas, también denominadas relaciones. Cada tabla está compuesta por filas y columnas, donde las filas representan registros y las columnas representan atributos.
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
@@ -231,14 +228,13 @@
         figure
           img(src='@/assets/curso/tema3/img18.png', alt='Imagen decorativa')
     .row.justify-content-center.mb-3
-      .col.col-12
-        .row.align-items-center(data-aos="flip-down")
-          .col-auto.pe-0(style="z-index:2")
-            figure
-              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
-          .col-lg-auto.col-9.titulo01(style="z-index:1")
-            .p-2
-              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Importancia de las claves en el diseño de bases de datos
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Importancia de las claves en el diseño de bases de datos
     p.mb-4(data-aos="fade-down") Las claves desempeñan un papel fundamental en la organización y funcionamiento de una base de datos relacional. Su uso permite estructurar la información de manera lógica, evitando duplicidad de datos y garantizando la integridad del sistema.
     .row.justify-content-center.mb-0
       .col.col-lg-3.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
