@@ -164,7 +164,7 @@
           .tarjeta.color-acento-contenido.p-3(x="73%" y="25.5%" numero="+")
             p.mb-0 Restricción de predeterminado, permite que de no llenarse el campo el asigne de manera automática un valor.
           .tarjeta.color-acento-contenido.p-3(x="73%" y="36%" numero="+")
-            p.mb-0 Restricción de llave primaria, garantiza que este campo no permita duplicados y será el identificador único de cada fil.
+            p.mb-0 Restricción de llave primaria, garantiza que este campo no permita duplicados y será el identificador único de cada fila.
           .tarjeta.color-acento-contenido.p-3(x="73%" y="46.5%" numero="+")
             p.mb-0 Una restricción de llave foránea hace que este campo guarde relación con un campo de otra tabla, al que hace referencia y no permite ingresar un valor si no existe en el campo de la otra tabla.
           .tarjeta.color-acento-contenido.p-3(x="73%" y="57%" numero="+")
@@ -381,7 +381,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/MKLWAcFz1Ds?si=B_WEFICOS2cDLsoV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/MKLWAcFz1Ds?si=tC20XmG9Yu2h986C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

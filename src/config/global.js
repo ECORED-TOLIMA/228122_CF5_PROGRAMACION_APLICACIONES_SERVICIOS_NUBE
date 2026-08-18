@@ -271,7 +271,7 @@ export default {
     {
       referencia:
         'Asaad, C. & Baïna, K. (2020). NoSQL <em>Databases: Yearning for Disambiguation</em>. arXiv.',
-      link: 'https://arxiv.org',
+      link: '',
     },
     {
       referencia:

@@ -327,6 +327,15 @@
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Relación
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") No depende de otras
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Depende de una entidad fuerte
+    .row.justify-content-center.mb-3
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Relación de dependencia
+    p.mb-4(data-aos="fade-down") La relación entre una entidad fuerte y una entidad débil se conoce como relación de dependencia o relación identificadora. En este tipo de relación, la entidad débil no puede existir sin la entidad fuerte, ya que su identificación depende directamente de ella.
     .bloque-texto-g.cajon.C09.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img26.jpg')})`}"

@@ -109,7 +109,7 @@
       .col.col-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1.
-          span Enfoques metodológicos para el análisis y diseño de algoritmos
+          span Componentes de la lógica y algoritmia
         .tabla-a.color-acento-contenido
           table
             thead
@@ -774,7 +774,7 @@
               img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
           .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
             h3.mb-0 Criterios para seleccionar un tipo de base de datos
-        p.mb-0(data-aos="fade-down") La elección del tipo de base de datos depende de múltiples factores, entre los que se destacan el volumen de datos, la velocidad de procesamiento requerida, el nivel de consistencia necesario, la estructura de la información y la capacidad de escalabilidad del sistema. En sistemas tradicionales, donde la precisión y la integridad son prioritarias, las bases de datos relacionales suelen ser la mejor opción. En entornos donde se manejan grandes volúmenes de datos y se requiere flexibilidad, las bases de datos NoSQL resultan más adecuadas. Para aplicaciones en tiempo real, las bases de datos In-Memory ofrecen un rendimiento superior, mientras que las bases de datos NewSQL son ideales para sistemas modernos que requieren equilibrio entre rendimiento y consistencia.
+        p.mb-0 La elección del tipo de base de datos depende de múltiples factores, entre los que se destacan el volumen de datos, la velocidad de procesamiento requerida, el nivel de consistencia necesario, la estructura de la información y la capacidad de escalabilidad del sistema. En sistemas tradicionales, donde la precisión y la integridad son prioritarias, las bases de datos relacionales suelen ser la mejor opción. En entornos donde se manejan grandes volúmenes de datos y se requiere flexibilidad, las bases de datos NoSQL resultan más adecuadas. Para aplicaciones en tiempo real, las bases de datos In-Memory ofrecen un rendimiento superior, mientras que las bases de datos NewSQL son ideales para sistemas modernos que requieren equilibrio entre rendimiento y consistencia.
 </template>
 
 <script>

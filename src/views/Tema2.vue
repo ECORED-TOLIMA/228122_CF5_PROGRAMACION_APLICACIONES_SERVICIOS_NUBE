@@ -17,6 +17,7 @@
       )
       .bloque-texto-g__texto.p-4
         p Desde una perspectiva conceptual, este modelo permite abstraer la realidad en estructuras organizadas, facilitando la comprensión del sistema y la manipulación de la información mediante operaciones definidas. Su importancia radica en que proporciona una base sólida para el diseño de bases de datos eficientes, evitando redundancias y asegurando la coherencia de los datos.
+    p Los siguientes son los elementos de una tabla relacional: 
     .row.BG03.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-5.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
@@ -366,7 +367,7 @@
           img(src='@/assets/curso/tema2/img28.jpg', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2
         p.mb-4(data-aos="fade-down") Un sistema gestor de bases de datos (DBMS) está compuesto por diversos elementos que permiten su funcionamiento, entre los que se encuentran el motor de base de datos, encargado del almacenamiento y la recuperación de la información; el lenguaje de consulta, como SQL, que permite interactuar con los datos; el administrador de transacciones, responsable de garantizar la consistencia de las operaciones; el gestor de almacenamiento, que define cómo se guardan los datos en disco o memoria; y el diccionario de datos, que contiene la definición de la estructura de la base de datos. Según el modelo de datos que utilizan, los DBMS pueden clasificarse en relacionales, orientados a tablas y relaciones; NoSQL, basados en estructuras flexibles; distribuidos, que gestionan datos en múltiples ubicaciones; y en memoria, que almacenan la información en RAM para ofrecer mayor velocidad de acceso.
-        p.mb-0(data-aos="fade-down") Igualmente, se destacan algunos procesos positivos y negativo como son:
+        p.mb-0(data-aos="fade-down") Igualmente, se destacan algunos procesos positivos y negativos como son:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .tarjeta--container.row
@@ -521,7 +522,7 @@
           li
             i.fas.fa-cloud-arrow-down
             p.mb-0 <b>Relaciones</b>: asociaciones entre entidades (un cliente compra un producto).
-        p.mb-4(data-aos="fade-down") Como características tiene:
+        p.mb-4(data-aos="fade-down") Ssus características son:
         ul.lista-ul--color.mt-4.mb-4(data-aos="fade-down")
           li
             i.fas.fa-cloud-arrow-down
@@ -553,6 +554,14 @@
       .col-12
         figure.movil
           img(src='@/assets/curso/tema2/img41.svg', alt='Figura 8 que representa un ejemplo de modelo entidad-relación, donde se muestra la entidad cliente identificada por su DNI, relacionada con la entidad pedido mediante una relación uno a muchos. El esquema incluye además la entidad artículo, vinculada al pedido a través de una relación muchos a muchos, incorporando atributos como fecha, cantidad y número de serie para describir las interacciones entre las entidades.')
+    .row.justify-content-center.mb-3
+      .col-12
+        .d-flex.align-items-center(data-aos="flip-down")
+          .flex-shrink-0(style="z-index: 2;")
+            figure.mb-0
+              img(src='@/assets/curso/ico.svg', style="width: 55px;", alt='').m-auto
+          .titulo01.p-2(style="z-index: 1; margin-left: -20px; padding-left: 30px !important;")
+            h3.mb-0 Modelo lógico
     .bloque-texto-g.bloque-texto-g--inverso.cajon.C09.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img42.jpg')})`}"
@@ -574,14 +583,14 @@
             p.mb-0 <b>Campos</b>: atributos de las tablas.
           li
             i.fas.fa-cloud-arrow-down
-            p.mb-0 <b>Claves</b> primarias: identifican registros.
+            p.mb-0 <b>Claves primarias</b>: identifican registros.
           li
             i.fas.fa-cloud-arrow-down
-            p.mb-0 <b>Claves</b> foráneas: establecen relaciones.
+            p.mb-0 <b>Claves foráneas</b>: establecen relaciones.
           li
             i.fas.fa-cloud-arrow-down
             p.mb-0 <b>Restricciones</b>: garantizan integridad.
-        p.mb-4(data-aos="fade-down") Como características tiene:
+        p.mb-4(data-aos="fade-down") Sus características son:
         ul.lista-ul--color.mt-4.mb-4(data-aos="fade-down")
           li
             i.fas.fa-cloud-arrow-down
@@ -634,7 +643,7 @@
             p.mb-4(data-aos="fade-down") Corresponde al nivel más detallado del diseño, donde se define cómo se implementará la base de datos en un sistema gestor específico. En esta etapa se consideran aspectos como almacenamiento, índices, rendimiento y optimización.
         .cajon.cajon.C08.p-4.mb-4
           p.mb-0(data-aos="fade-down") Este modelo traduce el diseño lógico a estructuras reales dentro del DBMS, incluyendo tipos de datos específicos, creación de tablas y definición de índices.
-        p.mb-4(data-aos="fade-down") Los elementos del modelo conceptual son:
+        p.mb-4(data-aos="fade-down") Los elementos del modelo físico son:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
             i.fas.fa-cloud-arrow-down
