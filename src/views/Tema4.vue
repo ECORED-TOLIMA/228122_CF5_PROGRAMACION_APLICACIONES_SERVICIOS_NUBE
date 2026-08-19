@@ -154,10 +154,10 @@
                   p.mb-0 );
             p.mb-0.order-lg-3.order-3(data-aos="fade-down") Para entender de mejor manera el tema de las restricciones, se detalla el siguiente esquema explicativo:
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
+      .col.col-lg-10.col-12.desktop
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
-            figure.desktop
+            figure
               img(src='@/assets/curso/tema4/img12.svg', alt='Imagen decorativa')
           .tarjeta.color-acento-contenido.p-3(x="73%" y="15%" numero="+")
             p.mb-0 Restricción de valor único, permite que solo se permitan valores únicos sobre este campo.
